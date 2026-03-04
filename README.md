@@ -1,4 +1,4 @@
-AI-Powered Parametric Insurance for Gig Workers
+#AI-Powered Parametric Insurance for Gig Workers
 
 Problem Statement
 
@@ -50,6 +50,12 @@ Instant Compensation Credited to Wallet
 Weekly Premium Model
 
 The insurance plans are structured on a weekly pricing model to align with gig workers' earning cycles.Workers can subscribe, renew, or cancel weekly.
+Example Weekly Plans
+
+Plan        Weekly Premium      Payout Coverage
+Basic       ₹30                 ₹400
+Standard    ₹40                 ₹600
+Pro         ₹50                 ₹800
 
 
 
