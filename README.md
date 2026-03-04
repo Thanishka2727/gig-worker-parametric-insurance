@@ -108,7 +108,7 @@ React.js
 
 Backend
 
-FastAPI / Node.js
+FastAPI (Python)
 
 Database
 
