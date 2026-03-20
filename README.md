@@ -1,135 +1,92 @@
-#AI-Powered Parametric Insurance for Gig Workers
+ AI-Powered Parametric Insurance for Gig Workers
+ Problem Statement
 
-Problem Statement
+Platform-based delivery partners (Swiggy, Zomato) depend on daily deliveries for income. External disruptions such as heavy rainfall, pollution, or curfews significantly reduce their working hours, leading to income loss.
 
-Platform-based delivery partners working for companies like Swiggy and Zomato depend on daily deliveries for income. External disruptions such as heavy rain, pollution, or curfews can reduce their working hours and cause significant income loss.
+Currently, gig workers have no financial protection against such uncontrollable risks.
 
-Currently, gig workers have no financial protection against such uncontrollable disruptions. Our solution proposes an AI-powered parametric insurance platform that automatically compensates workers when disruptions occur.
+Income stops instantly, but expenses don’t.
 
+ Persona Scenario
 
-Persona Scenario
-
-Name: Ravi
-City: Hyderabad
-Platform: Swiggy Delivery Partner
+Ravi – Swiggy Delivery Partner (Hyderabad)
 
 Weekly Income: ₹4000
 
-Problem
+During heavy rainfall, delivery demand drops, causing Ravi to lose around ₹1200 per week.
 
-During extreme weather conditions such as heavy rainfall, delivery orders drop significantly. Ravi may lose around ₹1200 in weekly earnings due to reduced deliveries.
+A single disruption can impact his entire monthly financial stability.
 
-Solution
-We propose an AI-powered parametric insurance platform designed specifically for delivery workers.
-The platform works by:
-Allowing workers to subscribe to weekly insurance plans
+ Solution
 
-Monitoring external disruptions using weather and environmental APIs
+We propose an AI-powered parametric insurance platform that automatically compensates gig workers when predefined disruption conditions occur — without requiring manual claims.
 
-Automatically triggering claims when predefined conditions are met
+ How It Works
+Register → Select Plan → Monitor Data → Trigger Detected → Auto Claim → Instant Payout
 
-Providing instant payouts without requiring manual claim submissions
+Workers subscribe to weekly plans
 
-This approach ensures fast, transparent, and automated financial protection for gig workers.
+System continuously monitors external data (weather, AQI, etc.)
 
+When a trigger condition is met, claims are automatically generated
 
-Application Workflow
-Worker Registration
-        ↓
-Select Weekly Insurance Plan
-        ↓
-System Monitors Weather & Disruption Data
-        ↓
-Parametric Trigger Detected
-        ↓
-Automatic Claim Generation
-        ↓
-Instant Compensation Credited to Wallet
+Compensation is instantly credited
 
-
-Weekly Premium Model
-
-The insurance plans are structured on a weekly pricing model to align with gig workers' earning cycles.Workers can subscribe, renew, or cancel weekly.
-Example Weekly Plans
-
-Plan        Weekly Premium      Payout Coverage
-Basic       ₹30                 ₹400
-Standard    ₹40                 ₹600
-Pro         ₹50                 ₹800
-
-
-
+ Weekly Insurance Plans
+Plan	Weekly Premium	Payout
+Basic	₹30	₹400
+Standard	₹40	₹600
+Pro	₹50	₹800
 Parametric Triggers
 
-Claims are automatically triggered when predefined conditions occur.
+Claims are triggered automatically when:
 
-Example triggers:
+Rainfall > 150 mm
 
-Rainfall greater than 150 mm
-
-Air Quality Index (AQI) greater than 400
+AQI > 400
 
 City-wide curfew
 
 Delivery platform outage
 
-When these triggers occur, the system automatically generates a claim and initiates payout.
+No manual claim process — fully automated and transparent.
+
+ AI Integration
+
+Risk Prediction:
+Analyze historical weather data to estimate disruption probability
+
+Dynamic Pricing:
+Adjust premiums based on location and risk patterns
+
+Fraud Detection:
+Detect anomalies such as GPS spoofing or duplicate claims
+
+Currently implemented as a rule-based MVP, with AI modules designed for future integration.
+
+ Technology Stack
+
+Frontend: React.js
+
+Backend: FastAPI (Python)
+
+Database: PostgreSQL
+
+APIs: Weather API, Pollution API, Traffic Data API
+
+AI/ML: Python, Scikit-learn / TensorFlow
+
+Impact
+
+Provides financial protection to gig workers
+
+Eliminates delays in insurance claims
+
+Ensures transparency and fairness
+
+Turning unpredictable risks into predictable protection.
 
 
+🎯 Conclusion
 
-AI Integration
-
-Artificial Intelligence is used in the following areas:
-
-Dynamic Premium Calculation
-
-Machine learning models adjust the weekly premium based on risk factors such as historical weather patterns and geographic risk zones.
-
-Fraud Detection
-
-The system identifies suspicious activities such as:
-
-GPS spoofing
-
-Fake disruption claims
-
-Duplicate claim attempts
-
-Risk Prediction
-
-AI models analyze historical weather data to predict future disruption risks and optimize pricing.
-
-
-Technology Stack
-
-Frontend
-
-React.js
-
-Backend
-
-FastAPI (Python)
-
-Database
-
-PostgreSQL 
-
-APIs
-
-Weather API
-
-Pollution API
-
-Traffic Data API
-
-AI/ML
-
-Python
-
-Scikit-learn / TensorFlow
-
-
-Conclusion
-
-This project aims to create a simple, automated, and affordable income protection system for gig economy workers. By combining AI-powered risk assessment with parametric insurance triggers, the platform ensures gig workers receive quick financial support during unexpected disruptions.
-
+This platform creates a fast, automated, and affordable income protection system for gig workers by combining parametric triggers with AI-driven risk assessment.
