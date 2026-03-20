@@ -87,6 +87,6 @@ Ensures transparency and fairness
 Turning unpredictable risks into predictable protection.
 
 
-🎯 Conclusion
+ Conclusion
 
 This platform creates a fast, automated, and affordable income protection system for gig workers by combining parametric triggers with AI-driven risk assessment.
